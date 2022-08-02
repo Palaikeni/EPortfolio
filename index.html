@@ -53,6 +53,123 @@
         <a href="#projects" class="scroll">
             <div class="scroll__icon click"></div>
         </a>
+        <div class="modal">
+            <div class="modal__half modal__about">
+                <h3 class="modal__title modal__title--about">Here's a bit about me.</h3>
+                <h4 class="modal__sub-title modal__sub-title--about">Frontend Developer</h4>
+                <p class="modal__para">I am a 20 year old <span class="secondary">frontend developer</span> who excels at rapidly learning how to solve <span class="secondary">new problems.</span> <br> Starting with zero knowledge, I <span class="secondary">taught myself</span> how to build websites such as this one in under a month.</p>
+                <div class="modal__languages">
+                    <figure class="modal__language--figure">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png" alt="" class="modal__language">
+                        <span class="modal__language--text"><p>HTML</p></span>
+                    </figure>
+                    <figure class="modal__language--figure">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/180px-CSS3_logo.svg.png" alt="" class="modal__language">
+                        <span class="modal__language--text"><p>CSS</p></span>
+                    </figure>
+                    <figure class="modal__language--figure">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Javascript-736400_960_720.png/270px-Javascript-736400_960_720.png" alt="" class="modal__language">
+                        <span class="modal__language--text"><p>Javascript</p></span>
+                    </figure>
+                </div>
+            </div>
+            <div class="modal__half modal__contact">
+                <h3 class="modal__title modal__title--contact">Let's have a chat.</h3>
+                <h4 class="modal__sub-title modal__sub-title--contact">I'm currently open to new opportunities.</h4>
+                <form action="" id="contact__form">
+                    <div class="form__item">
+                        <label class="form__item--label">Name</label>
+                        <input class="form__input" name="user_name" type="text" required>
+                    </div>
+                    <div class="form__item">
+                        <label class="form__item--label">E-mail</label>
+                        <input class="form__input" name="user_email" type="email" required>
+                    </div>
+                    <div class="form__item">
+                        <label class="form__item--label">Message</label>
+                        <textarea class="form__input" name="message" type="text" required></textarea>
+                    </div>
+                    <button id="contact__submit" class="form__submit">Send it my way</button>
+                </form>
+            </div>
+        </div>
     </section>
+    <section id="projects">
+        <div class="container">
+            <div class="row">
+                <h1 class="section__title">Here are some of my <span class="secondary">projects</span>
+                </h1>
+                <ul class="project__list">
+                    <li class="project">
+                        <div class="project__wrapper">
+                            <img src="./assets/blinker mockup.png" alt="" class="project__image">
+                            <div class="project__wrapper--bg"></div>
+                            <div class="project__description">
+                                <h3 class="project__description--title">Brother's Cancer Blog</h3>
+                                <h4 class="project__description--sub-title">HTML, CSS, Javascript</h4>
+                                <p class="project__description--para">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit dolorem neque autem ipsum repudiandae aspernatur? Beatae, impedit neque dolores adipisci quis natus. Ipsum laudantium incidunt necessitatibus voluptates, consectetur mollitia tenetur.
+                                </p>
+                                <div class="project__description--links">
+                                    <a href="" class="project__description--link"><i class="fa-brands fa-square-github"></i></a>
+                                    <a href="" class="project__description--link"><i class="fas fa-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="project">
+                        <div class="project__wrapper">
+                            <img src="./assets/blinker mockup.png" alt="" class="project__image">
+                            <div class="project__wrapper--bg"></div>
+                            <div class="project__description">
+                                <h3 class="project__description--title">Brother's Cancer Blog</h3>
+                                <h4 class="project__description--sub-title">HTML, CSS, Javascript</h4>
+                                <p class="project__description--para">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit dolorem neque autem ipsum repudiandae aspernatur? Beatae, impedit neque dolores adipisci quis natus. Ipsum laudantium incidunt necessitatibus voluptates, consectetur mollitia tenetur.
+                                </p>
+                                <div class="project__description--links">
+                                    <a href="" class="project__description--link"><i class="fa-brands fa-square-github"></i></a>
+                                    <a href="" class="project__description--link"><i class="fas fa-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="project">
+                        <div class="project__wrapper">
+                            <img src="./assets/blinker mockup.png" alt="" class="project__image">
+                            <div class="project__wrapper--bg"></div>
+                            <div class="project__description">
+                                <h3 class="project__description--title">Brother's Cancer Blog</h3>
+                                <h4 class="project__description--sub-title">HTML, CSS, Javascript</h4>
+                                <p class="project__description--para">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit dolorem neque autem ipsum repudiandae aspernatur? Beatae, impedit neque dolores adipisci quis natus. Ipsum laudantium incidunt necessitatibus voluptates, consectetur mollitia tenetur.
+                                </p>
+                                <div class="project__description--links">
+                                    <a href="" class="project__description--link"><i class="fa-brands fa-square-github"></i></a>
+                                    <a href="" class="project__description--link"><i class="fas fa-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row footer__row">
+                <figure>
+                    <img src="./assets/logo.svg" alt=""  class="footer__logo">
+                </figure>
+                <div class="footer__social--links">
+                    <a href="" class="footer__social--link link__hover-effect link__hover-effect--white">Github</a>
+                    <a href="" class="footer__social--link link__hover-effect link__hover-effect--white">LinkedIn</a>
+                    <a href="" class="footer__social--link link__hover-effect link__hover-effect--white">Email</a>
+                    <a href="" class="footer__social--link link__hover-effect link__hover-effect--white">Resume</a>
+                </div>
+            <div class="footer__copyright">&copy; Brayden Whitaker 2022</div>
+        </div>
+        </div>
+    </footer>
 </body>
 </html>
